@@ -23,3 +23,5 @@ const returnVoid=(num:number):void=>{
 const returnErr=(msg:string):never=>{
     throw new Error(msg)
 }
+
+export {}
